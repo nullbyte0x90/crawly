@@ -4,7 +4,7 @@
 
 #include "curl/curl.h"
 
-const char * dir = "/home/cook/projects/crawly/pliczek";
+const char * dir = "/home/nullbyte/gits/crawly/pliczek";
 
 
 size_t writeFunc(void * buffer, size_t size, size_t numberMembers, void * userp) {
@@ -44,8 +44,6 @@ int main(int argc, char **argv)
         result = curl_easy_perform(curl);//faktyczny transfer
 
         // std::cout<<bigString<<std::endl;
-        // std::cout<<result<<std::endl;
-        //std::cout<<bigString.size()<<std::endl;
         curl_easy_cleanup(curl);
     }
 
