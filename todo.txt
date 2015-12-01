@@ -1,0 +1,8 @@
+Nie bombardowac tej samej domeny:
+	wydobyc domene z urla:
+		wyznaczyc wszystkie koncowki domeny najwyzszego poziomu i na
+ 		podstawie pierwszej napotkanej okreslic poczatek urla. 
+		Potem od kropki do kropki wczesniej
+wyciagnac slowa z htmla:
+	dodawac tylko unikalne (mapa) i policzyc czestotliwosc wystepowania
+
